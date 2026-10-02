@@ -116,7 +116,7 @@ Priority is MoSCoW: M (Must), S (Should), C (Could).
 
 ## 5. Sample user stories
 
-The real backlog had 32 stories. These are representative examples written for this portfolio.
+The real backlog had 30+ stories. These are representative examples written for this portfolio.
 
 | ID | Story | FR |
 | --- | --- | --- |
@@ -148,7 +148,7 @@ The real backlog had 32 stories. These are representative examples written for t
 
 ## 6. UAT approach
 
-UAT ran with the client's HR team. Each test case had a worked example with the expected result. Payroll outputs were checked against those results with SQL queries. On the project this came to 45 test cases and 12 defects logged before release.
+UAT ran with the client's HR team. Each test case had a worked example with the expected result. Payroll outputs were checked against those results with SQL queries. On the project this came to 40+ test cases and around a dozen defects logged before release.
 
 Sample test cases:
 
