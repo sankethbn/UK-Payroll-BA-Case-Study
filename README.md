@@ -18,20 +18,19 @@ The platform handles payroll for UK employees: salary runs, payslips, leave and 
 
 **Owning the requirements.** From there I took over requirements across salary runs, payslips, leave and attendance, PAYE, National Insurance and pension auto-enrolment. I wrote and maintained the BRD and FRD in Confluence so the team had one source of truth.
 
-**Stories and sprints.** I broke the requirements down into 32 user stories with acceptance criteria in Jira and worked them through 8 sprints with the client's HR team and our Development Manager.
+**Stories and sprints.** I broke the requirements down into 30+ user stories with acceptance criteria in Jira and worked them through our sprints with the client's HR team and our Development Manager.
 
 **Flows and design reviews.** I mapped the payroll-run and leave-to-pay process flows and walked the client through the Figma screens before development started. Catching a workflow problem on a screen is a lot cheaper than catching it in a finished feature.
 
-**UAT.** I wrote 45 UAT test cases in Excel and checked payroll outputs with SQL against the expected results. That caught 12 defects before release.
+**UAT.** I wrote 40+ UAT test cases in Excel and checked payroll outputs with SQL against the expected results. That caught around a dozen defects before release.
 
 ## Results
 
-| What | Number |
+| What | Roughly |
 | --- | --- |
-| User stories written in Jira | 32 |
-| Sprints worked across | 8 |
-| UAT test cases written | 45 |
-| Defects caught before release | 12 |
+| User stories written in Jira | 30+ |
+| UAT test cases written | 40+ |
+| Defects caught before release | About a dozen |
 
 ## Documents
 
