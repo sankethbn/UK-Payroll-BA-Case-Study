@@ -1,10 +1,10 @@
 # UK Payroll Platform: Functional Requirements Document
 
-Portfolio version · Prepared by Basava Sanketh B N (Business Analyst) · Logic Lumin Software
+Personal case study · Prepared by Basava Sanketh B N
 
 Builds on the [BRD](BRD.md). Every functional requirement here points back to a business requirement (BR) there.
 
-> This is a rewritten sample for my portfolio. It follows the structure I used on the project and standard UK payroll rules. The stories, rules and test cases below are examples, not the client's actual backlog.
+> This is a self-made case study based on a made-up UK employer and public UK payroll rules. The stories, rules and test cases below are my own examples.
 
 ---
 
@@ -116,7 +116,7 @@ Priority is MoSCoW: M (Must), S (Should), C (Could).
 
 ## 5. Sample user stories
 
-The real backlog had 30+ stories. These are representative examples written for this portfolio.
+These are sample stories that show how the requirements break down.
 
 | ID | Story | FR |
 | --- | --- | --- |
@@ -148,7 +148,7 @@ The real backlog had 30+ stories. These are representative examples written for 
 
 ## 6. UAT approach
 
-UAT ran with the client's HR team. Each test case had a worked example with the expected result. Payroll outputs were checked against those results with SQL queries. On the project this came to 40+ test cases and around a dozen defects logged before release.
+UAT is planned with the HR team. Each test case has a worked example with the expected result and payroll outputs are checked against those results with SQL queries.
 
 Sample test cases:
 
