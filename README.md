@@ -1,47 +1,33 @@
 # UK Payroll Platform: Business Analyst Case Study
 
-- **Company:** Logic Lumin Software
-- **Role:** Business Analyst (Jan 2026 to present)
-- **Client:** a UK payroll client (name withheld under NDA)
+A personal case study I wrote to practise end-to-end Business Analyst work on a domain with strict rules. It is not work done for a company or a real client. The scenario, documents, stories and test cases are all my own.
 
-I joined a live UK HR and payroll build partway through, as Logic Lumin's first and only Business Analyst. Development was already running, but nobody owned the requirements. A lot of the business rules only existed in people's heads or in the code itself. This repo explains how I approached that and what came out of it.
+## The scenario
 
-> **About confidentiality.** The client's name and documents are confidential. The BRD and FRD in this repo are rewritten from scratch for my portfolio. They follow the structure I used on the project and standard UK payroll rules, but they contain no client data, names or figures.
+A UK employer wants a platform to run payroll for its staff: salary runs, payslips, leave and attendance, PAYE, National Insurance and pension auto-enrolment. In my scenario, development has already started, but nobody owns the requirements. Some rules only exist in the code or in people's heads. A few have been built differently from how HR expects them to work.
 
-## The situation
-
-The platform handles payroll for UK employees: salary runs, payslips, leave and attendance, PAYE, National Insurance and pension auto-enrolment. When I joined, there was no single place that said what the system should do. Some rules had never been written down. Others had been built differently from how the client expected them to work.
+I picked payroll because the rules are public (HMRC and pension guidance) and unforgiving. A vague requirement here means someone gets paid the wrong amount.
 
 ## What I did
 
-**Gap analysis first.** Before writing anything new, I compared what had already been built with what the client actually needed. That surfaced undocumented business rules, process gaps and places where the build didn't match the client's expectations. Where a rule wasn't written down anywhere, I traced how the system currently behaved, checked it with the client and wrote down the agreed version.
+**Started with a gap analysis.** I listed what a half-built system would typically have, compared it with what HR actually needs and wrote down the rules that were missing or unclear.
 
-**Owning the requirements.** From there I took over requirements across salary runs, payslips, leave and attendance, PAYE, National Insurance and pension auto-enrolment. I wrote and maintained the BRD and FRD in Confluence so the team had one source of truth.
+**Wrote the BRD and FRD.** The [BRD](BRD.md) covers the why and the what: objectives, scope, stakeholders, business requirements and the UK rules the system has to follow. The [FRD](FRD.md) covers the how: user roles, process flows, functional requirements, business rules, user stories with acceptance criteria and a UAT plan.
 
-**Stories and sprints.** I broke the requirements down into 30+ user stories with acceptance criteria in Jira and worked them through our sprints with the client's HR team and our Development Manager.
+**Mapped the flows.** I drew the payroll-run and leave-to-pay process flows so the whole process can be seen in one place.
 
-**Flows and design reviews.** I mapped the payroll-run and leave-to-pay process flows and walked the client through the Figma screens before development started. Catching a workflow problem on a screen is a lot cheaper than catching it in a finished feature.
-
-**UAT.** I wrote 40+ UAT test cases in Excel and checked payroll outputs with SQL against the expected results. That caught around a dozen defects before release.
-
-## Results
-
-| What | Roughly |
-| --- | --- |
-| User stories written in Jira | 30+ |
-| UAT test cases written | 40+ |
-| Defects caught before release | About a dozen |
+**Planned UAT.** I wrote sample test cases with worked examples and expected results, covering cases like a mid-month starter, unpaid leave, a Week 1/Month 1 tax code and a pension opt-out.
 
 ## Documents
 
-- [Business Requirements Document (BRD)](BRD.md): the why and the what. Background, objectives, scope, stakeholders, business requirements and UK rules the system has to follow.
-- [Functional Requirements Document (FRD)](FRD.md): the how. User roles, process flows, functional requirements, business rules, sample user stories with acceptance criteria and the UAT approach.
+- [Business Requirements Document (BRD)](BRD.md)
+- [Functional Requirements Document (FRD)](FRD.md)
 
-## Tools I used
+## Tools this is written for
 
-Jira for the backlog and sprints, Confluence for the BRD and FRD, Figma for screen reviews with the client, Excel for UAT test cases and SQL for checking payroll outputs.
+The documents are set up the way I would run them in Jira and Confluence, with flows that could become Figma screen reviews and UAT cases that could be checked with SQL against expected payroll outputs.
 
 ## What I took away from it
 
-- Joining mid-project means the first job is listening, not writing. The gap analysis told me more about the project than any kickoff would have.
-- In payroll, "we all know how that works" is usually where the disagreements hide. Writing a rule down and getting the client to confirm it saved more rework than anything else I did.
+- On a project that is already moving, the first job is listening, not writing. A gap analysis tells you more than any kickoff.
+- In payroll, "we all know how that works" is usually where the disagreements hide. Writing each rule down and getting it confirmed saves the most rework.
