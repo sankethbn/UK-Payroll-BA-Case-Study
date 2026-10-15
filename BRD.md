@@ -1,10 +1,10 @@
 # UK Payroll Platform: Business Requirements Document
 
-Portfolio version · Prepared by Basava Sanketh B N (Business Analyst) · Logic Lumin Software
+Personal case study · Prepared by Basava Sanketh B N
 
 See also: [FRD](FRD.md) · [Project overview](README.md)
 
-> This is a rewritten sample for my portfolio. It follows the structure I used on the project and standard UK payroll rules. It contains no client names, data or figures.
+> This is a self-made case study based on a made-up UK employer and public UK payroll rules. It is not work done for a real company or client.
 
 ---
 
@@ -14,9 +14,9 @@ This document describes what the business needs from the payroll platform and wh
 
 ## 2. Background
 
-The client runs payroll for UK employees. The platform replaces manual steps around salary runs, payslips and leave. It has to follow HMRC rules for PAYE and National Insurance as well as workplace pension law.
+The employer runs payroll for UK staff. The platform replaces manual steps around salary runs, payslips and leave. It has to follow HMRC rules for PAYE and National Insurance as well as workplace pension law.
 
-Development had already started before a Business Analyst joined. Several business rules existed only in the code or in conversations, so the first step was a gap analysis to capture what had been built and confirm what the client actually needed.
+In this scenario, development has already started before a Business Analyst joins. Several business rules exist only in the code or in conversations, so the first step is a gap analysis to capture what has been built and confirm what the business actually needs.
 
 ## 3. Objectives
 
